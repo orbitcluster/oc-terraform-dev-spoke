@@ -38,12 +38,12 @@ jobs:
 
   dev-spoke-destroy:
     needs: validate-input
-    uses: "orbitcluster/oc-terraform-module-eks-setup/.github/workflows/destroy.yml@v2.11.0"
+    uses: "orbitcluster/oc-terraform-module-eks-setup/.github/workflows/destroy.yml@v2.11.1"
     with:
       tfvar_file_path: "dev-spoke.tfvars"
       bucket_name: "oc-backend-dev-spoke"
       approvers: "dilipsamanta, mav-sk"
       master_s3_directory: "oc-eks-dev-spoke"
       component: ${{ github.event.inputs.component }}
-      module_ref: "v2.11.0"
+      module_ref: "v2.11.1"
     secrets: inherit
