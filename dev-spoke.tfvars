@@ -34,4 +34,4 @@ cluster_endpoint_access_type         = "public"
 cluster_endpoint_public_access_cidrs = ["101.0.63.102/32"]
 is_hub                               = false
 hub_cluster_name                     = "allhub-BU12345-APP67890-eks"
-hub_account_id = "485646919618"
+hub_account_id                       = "485646919618"
