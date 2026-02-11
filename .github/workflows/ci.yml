@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   dev-spoke-ci:
-    uses: "orbitcluster/oc-terraform-module-eks-setup/.github/workflows/main.yml@v2.14.1"
+    uses: "orbitcluster/oc-terraform-module-eks-setup/.github/workflows/main.yml@v2.14.2"
     with:
       tfvar_file_path: "dev-spoke.tfvars"
       bucket_name: "oc-backend-dev-spoke"
