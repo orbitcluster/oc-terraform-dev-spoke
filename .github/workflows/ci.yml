@@ -17,5 +17,5 @@ jobs:
       bucket_name: "oc-backend-dev-spoke"
       approvers: "dilipsamanta, mav-sk"
       master_s3_directory: "oc-eks-dev-spoke"
-      module_ref: "v2.14.1"
+      module_ref: "v2.14.2"
     secrets: inherit
