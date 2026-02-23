@@ -38,7 +38,7 @@ jobs:
 
   dev-spoke-destroy:
     needs: validate-input
-    uses: "orbitcluster/oc-terraform-module-eks-setup/.github/workflows/destroy.yml@v2.17.2"
+    uses: "orbitcluster/oc-terraform-module-eks-setup/.github/workflows/destroy.yml@v2.17.3"
     with:
       tfvar_file_path: "dev-spoke.tfvars"
       bucket_name: "oc-backend-dev-spoke"
